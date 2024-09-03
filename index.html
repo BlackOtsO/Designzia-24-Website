@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BlackOtsO">
+    <meta name="keywords"
+        content="Desginzia">
+    <meta name="BlackOtsO" content="Desginzia">
+    <title>DESIGNZIA-24</title>
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="Images/Logos/log-csd.jpeg" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <!-- BOOTSTRAP CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- fakeloader css -->
+    <link rel="stylesheet" href="./Assets/fakeLoader.js-2.0.0/dist/fakeLoader.min.css">
+
+    <!-- Modal Effect -->
+    <link rel="stylesheet" href="./Assets/ModalWindowEffects-master/css/component.css">
+
+    <!-- OWL CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./Assets/Swiper Slider/swiper-bundle.css" />
+    <link rel="stylesheet" href="./Assets/Swiper Slider/swiper-bundle.min.css" />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./Assets/animate.min.css" />
+    <link rel="stylesheet" href="./Assets/WOW-master/css/libs/animate.css" />
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <style>
+        audio{
+            display:none;
+        }
+        #formbutton-button {
+            background: rgba(16,18,30,255) !important;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+        .box-for-dep{
+            border: 1px solid black;
+            background-color: aliceblue;
+            height: 300px;
+            width: auto;
+        }
+        .box-for-dep-img{
+            border: 0px;
+            background-color: none;
+            height: auto;
+            width: auto;
+            
+        }
+        .anime
+{
+position:relative;
+margin:0;
+font-size:4em;
+font-weight:900;
+color:#fff;
+z-index:1;
+overflow:hidden;
+}
+.anime:before
+{
+content:'';
+position:absolute;
+left:120%;
+width:120%;
+height:100%;
+background:linear-gradient(90deg,transparent 0%,#fffbfbcc 5%,#fff5f59a 100%);
+animation:animate 3s linear backwards;
+animation-delay:1s;
+}
+@keyframes animate
+{
+0%
+{
+left:-20%;
+
+}
+100%
+{
+left:100%;
+}
+}
+.anime span
+{
+color:#ff022c;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  color: linear-gradient(90deg, rgba(36,10,84,1) 5%, rgba(167,80,168,1) 93%);
+  text-transform: uppercase;
+  animation: flip 3s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@media (max-width:791px){
+    .waviy{
+        font-size: calc(.5vw+1.5rem);
+    }
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#axon-navbar" data-bs-offset="0" tabindex="0">
+    <!-- PRELOADER START -->
+  <!--  <div class="fakeLoader"></div>-->
+    <!-- PRELOADER END   -->
+    
+
+    <!-- ====== NAVBAR START ====== -->
+    <div class="main_nav-bar " >
+        <div class="container custom-cnt">
+            <nav class="navbar navbar-expand-lg navbar-light custom-nav" id="axon-navbar">
+                <div class="container-fluid">
+                    <div class="navbar-logo">
+                        <div style="display: flex;"><img src="Images\Logos\college-logo.png" height="60vh" width="65vh">
+                        <h2 style="color: #fff; font-weight: bold; font-family:  'Raleway', sans-serif; font-size: 1em; padding-top: 5%;" class="demoo" >ERODE SENGUNTHAR<br><div style="font-size: 0.8em; color:#fff">ENGINEERING COLLEGE</div></h2></div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav custom-navbar-nav w-100 justify-content-end" role="tablist">
+                           
+                           
+                           
+                        <!-- <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="SPK" aria-current="page"
+                                    href="#speakers"></a>
+                            </li>-->
+                            <!-- <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="SPN" aria-current="page"
+                                    href="#sponsors"></a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="SCH" aria-current="page"
+                                    href="#schedule"></a>-->
+                            
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="HME" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="ABT" aria-current="page" href="#about">About</a>
+                            </li>
+                          <!--  <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="SPK" aria-current="page"
+                                    href="#speakers">Events</a>
+                            </li>-->
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="PRC" aria-current="page"
+                                    href="#pricing">Events</a>
+                            </li>
+
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="SCH" aria-current="page"
+                                    href="#schedule">schedule</a>
+                                    </li>
+                           
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" id="CNT" aria-current="page"
+                                    href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="fixed-tel"><a href="https://forms.gle/uSTBGdXcn8PVrHwe6" target="_blank">
+        <i class='fas fa-edit' style='font-size:35px; margin: 18px;  align-self:center;color: white;'></i></a></div>
+    <!-- Newsletter -->
+    <!-- SECTION - 1 START -->
+    <section class="container-fluid landing-page d-flex align-items-center justify-content-center flex-column"
+        id="home">
+        <div class="overlay" style="opacity:0.65;"></div>
+        <div class="pattern-bg"></div>
+        <video autoplay loop muted>
+            <source src="./Video/esec-video.mp4" type="video/mp4">
+            </source>
+        </video>
+        <header class="mt-5" style="margin-top:5rem !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="landing-page-heading">
+                          <div class="waviy" style="margin-left: 8%; text-align: center; font-size: 200%;">
+                                <span style="--i:1; color: red; ">D</span>
+                                <span style="--i:2">E</span>
+                                <span style="--i:3">S</span>
+                                <span style="--i:4">I</span>
+                                <span style="--i:5">G</span>
+                                <span style="--i:6;  color: red;">N</span>
+                                <span style="--i:7">Z</span>
+                                <span style="--i:8;">I</span>
+                                <span style="--i:9">A</span>
+                               
+                                <span style="--i:12">'</span><!--
+                                <span style="--i:13; ">2</span>
+                                <span style="--i:14; ">K</span>  -->
+                                <span style="--i:15;  color: red;">2</span>
+                                <span style="--i:16">4</span>
+                                
+                               </div>
+                            
+                             <h1 style="text-align: center; margin-left: 8%;" class="csdf">COMPUTER SCIENCE AND DESIGN</h1 >
+                            <h4 class="wow animated fadeInUp" style="text-align: center;" data-wow-duration="0.5s" data-wow-delay="2.3s">22 & 23 April 2024</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="btn-learn-more my-5">
+                            <center>
+                                <a class="text-decoration-none" href="https://docs.google.com/forms/d/e/1FAIpQLSf-noADiUpapsVnSLarcs-kSpzSN2L5cqLo61bBrNkKRUDeFA/viewform?urp=gmail_link" class="text-decoration-none"   style="color:#fff;" 
+                                target="_blank">
+                              <button data-mdb-ripple-color="success" type="submit" 
+                                    class="btn btn-lg btn-register wow animated fadeIn" data-wow-duration="0.5s" 
+                                    data-wow-delay="3.4s">
+                                    
+                                      Register
+                                </button></a>
+                            </center>
+                        </div>
+                    </div>
+                      <!--.....................TIMER.............  -->
+
+                    <div class="countdown-container">
+                        <div class="countdown-el days-c">
+                            <p class="big-text" id="days">0</p>
+                            <span>days</span>
+                        </div>
+                        <div class="countdown-el hours-c">
+                            <p class="big-text" id="hours">0</p>
+                            <span>hours</span>
+                        </div>
+                        <div class="countdown-el mins-c">
+                            <p class="big-text" id="mins">0</p>
+                            <span>mins</span>
+                        </div>
+                        <div class="countdown-el seconds-c">
+                            <p class="big-text" id="seconds">0</p>
+                            <span>seconds</span>
+                        </div>
+                    </div>
+                    <!--.....................TIMER.............  -->
+                </div>
+            </div>
+        </header>
+        
+    </section>
+    <!-- SECTION - 1 END   -->
+   
+    
+
+    <!-- SECTION - 2 START   -->
+    <section class="about_us d-flex align-items-center justify-content-center position-relative flex-column" id="about">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="about_us_heading mb-5 wow animated fadeInLeft" data-wow-duration="1s"
+                        data-wow-delay="0.3s">
+                        <h1 >ABOUT US</h1>
+                        <h3>DESIGNZIA</h3>
+                        <p class="text-muted" style="text-align: justify;">Designzia is a National-level technical intercollegiate symposium conducted
+                             by computer science and Design department in Erode Sengunthar Engineering College. This dynamic 
+                             event encompasses a diverse array of technical and non-technical competitions, workshops, fostering 
+                             an environment where students can sharpen their skills and expand their knowledge. From cutting-edge
+                              hackathons to thought-provoking tech talks by industry leaders, Designzia offers a platform for attendees 
+                              to engage with the latest trends in technology</p>
+                        <br>
+                        <img src="Images/Logos/log-csd2.png" width="45%" style="border-radius: 40px;">
+                        <p style="text-align: justify;">B.E. Computer Science and Design programme aims to develop graduates with computing tools and technologies, 
+                            along with the interactive design approaches and its technologies. The program will prepare students to work 
+                            in the IT industry as well as in design industry like virtual/augmented reality, gaming, IoT, etc., . 
+                            Nowadays, good use of interaction design principles and techniques is a very high priority for software 
+                            development companies. We have established Center of Excellence in VR/AR in collaboration with Unity, 
+                            USA. Our vision is to be a centre of excellence for bringing up skilled computer professionals with 
+                            enriching interactive design skills, high caliber and quality for catering to the dynamic needs of the 
+                            industry and society.</p>
+                            <img src="Images/Logos/csd-logo3.png" width="55%" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 gx-0 custom-row-1" style="background:#240a54;">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3">
+                <div class="about_us_image gallery-img position-relative" data-bs-toggle="modal"
+                    data-bs-target="#galleryModal">
+                    <span class="position-absolute">Events</span>
+                    <img class="img-fluid gallery-icon" src="./Images/Icons/gal-icn.png" alt="gallery-icon">
+                </div>
+                <!-- MODAL SLIDER START -->
+                <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModal"
+                    aria-hidden="true" style="z-index: 99999999;">
+                    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="galleryModal">Events</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="custom-carousel owl-theme">
+                                    <img src="./Images/Background/1.jpg"  class="img-fluid rounded d-block w-100"
+                                        alt="1">
+                                    <img src="./Images/Background/2.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="2">
+                                    <img src="./Images/Background/3.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="3">
+                                 <img src="./Images/Background/4.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="4">
+                                    <img src="./Images/Background/5.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="5">
+                                  <!--    <img src="./Images/Background/6.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="6">
+                                    <img src="./Images/Background/pexels-祝-鹤槐-716276.jpg"
+                                        class="img-fluid rounded d-block w-100" alt="7">
+                                    <img src="./Images/Background/8.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="8">
+                                    <img src="./Images/Background/9.jpg" class="img-fluid rounded d-block w-100"
+                                        alt="9">-->
+                                </div>
+                               
+                            </div>
+                            <div class="modal-footer">
+                                <button data-mdb-ripple-color="success" type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MODAL SLIDER END   -->
+                
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
+                <div class="row gx-0 align-items-center justify-content-center">
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
+                                data-wow-delay="0.3s">
+                                <span >2</span>
+                                <h5>DAYS</h5>
+                                <p>Designzia is the 2 days event that can be boostup the knowledge.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
+                                data-wow-delay="0.5s">
+                                <span >6</span>
+                                <h5>EVENTS</h5>
+                                <p>Dive into the cutting-edge world of technology through our dynamic and interactive technical events</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-6">
+                            <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
+                                data-wow-delay="0.7s">
+                                
+                                <h2 style="color: #bb38bb; padding-top: 10%;">AR VR WORKSHOP</h2>
+                                <p>Embark on an immersive journey into the future of technology with our AR/VR workshop</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
+                                data-wow-delay="0.9s">
+                                <span class="counter">10000</span>
+                                <h5>CASH PRIZE UPTO</h5><br>
+                                <p>Best participation has won the cash prize  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3">
+                <div class="about_us_image video-img position-relative d-flex align-items-center justify-content-center"
+                    data-bs-toggle="modal" data-bs-target="#video_modal">
+                    <span class="video-title position-absolute">Video</span>
+                    <img class="img-fluid video_icon" src="./Images/Icons/vdo-icn.png" alt="video_icon">
+                </div>
+                <!-- MODAL VIDEO START -->
+                <div class="modal fade" id="video_modal" tabindex="-1" aria-labelledby="VideoModalLabel"
+                    aria-hidden="true" style="z-index: 99999999;">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="VideoModalLabel">Video</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                                        src="Video/temp.mp4"
+                                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                                <script src="https://player.vimeo.com/api/player.js"></script>
+                            </div>
+                            <div class="modal-footer">
+                                <button data-mdb-ripple-color="success" type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MODAL VIDEO END -->
+            </div>
+        </div>
+    </section>
+    <!-- SECTION - 2 END -->
+    <!--  SECTION- Events START-->
+    <section class="pricing container-fluid position-relative d-flex align-items-center justify-content-center"
+    id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pricing-heading text-center mt-5 mb-5 wow animated fadeInDown" data-wow-duration="1s"
+                    data-wow-delay="0.5s" style="margin-top: 6rem !important;">
+                    <h1 class="mb-5">EVENTS</h1>
+                    <p class="mb-5" style="margin-bottom: 5rem !important;">Technical
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5" style="margin-bottom: 7rem!important;">
+            <!-- MODAL POPUP - 1 START -->
+            <div class="md-modal md-effect-11" id="pricing-modal-2">
+                <div class="md-content bg-dark custom-md-content"
+                style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(48, 27, 208), 0 2px 7px 0 rgba(4, 2, 14, 0.5);">
+                    <div class="modal___close__btn position-relative">
+                        <i class="fas fa-times position-absolute end-0 md-close"
+                            style="font-size: 20px;cursor: pointer; right:3% !important;"></i>
+                    </div>
+                    <div class="md-content-header p-3">
+                        <h4 class="text-uppercase text-center">Paper Scriptum
+                        </h3>
+                            <h6 class="text-uppercase text-center">
+                                </h5>
+                    </div>
+                    <div>
+                        <div class="card-details" >
+                            <form class="form-control bg-transparent B-none"
+                                action="https://formspree.io/f/xvodvebq" method="POST">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mt-3">
+                                            <label class="form-label text-white"><b>Description</b></label>
+                                          <p style="color: #fff; text-align: justify;">Are you ready to showcase your ideas on the big stage? Join us to get an exclusive platform to bring out your unique ideas and insights into cutting edge topics in the field of tech. Oh wait, these ideas should be original by the way !
+
+                                          <br> <b> Eligibility:</b><br>
+                                            Anyone can join<br>
+                                            
+                                            <b>Instructions:</b><br>
+                                            I)Participation can either be an individual participant or as a team of maximum 4(All of them should register individually).
+                                            <br> II)Oral presentation for the conference has been allocated 10 minutes of effective presentation time and 2-3 minutes given to Q/A session. Time limit must not be exceeded.
+                                            <br>   III)Soft copies of the paper must be submitted in the .doc/.pdf format..<br><div style="color: gold;">1st prize 1000/- 
+                                            </div><div style="color: lightsalmon;">2nd prize 750/-</div></p> 
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md-overlay bg-white"></div>
+            <!-- MODAL POPUP - 1 END   -->
+            
+            <!-- MODAL POPUP - 2 START -->
+            <div class="md-modal md-effect-11" id="pricing-modal-1">
+                <div class="md-content bg-dark custom-md-content"
+                style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(48, 27, 208), 0 2px 7px 0 rgba(4, 2, 14, 0.5);">
+                    <div class="modal___close__btn position-relative">
+                        <i class="fas fa-times position-absolute end-0 md-close"
+                            style="font-size: 20px;cursor: pointer; right:3% !important;"></i>
+                    </div>
+                    <div class="md-content-header p-3">
+                        <h4 class="text-uppercase text-center">AR/VR expo
+                        </h3>
+                            
+                    </div>
+                    <div>
+                        
+                        <div class="card-details">
+                            <form class="form-control bg-transparent B-none"
+                                action="https://formspree.io/f/xvodvebq" method="POST">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mt-3">
+                                            <label class="form-label text-white"><b>Description</b></label>
+                                          <p style="color: #fff; text-align: justify;">Experience the thrill of innovation and collaboration
+                                             at our AR/VR Expo in our Designzia 2k24! Dive into the dynamic world of 
+                                             Augmented Reality (AR) and Virtual Reality (VR) as you team up with fellow 
+                                             students to develop groundbreaking solutions and immersive experiences. 
+                                            <br>
+                                            participation can either be an individual participant or as a team of
+                                             maximum 3.(All of them should register individually)<br><div style="color: gold;">1st prize 750/- 
+                                            </div><div style="color: lightsalmon;">2nd prize 500/-</div></p> 
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md-overlay bg-white"></div>
+            <!-- MODAL POPUP - 3 END   -->
+            <!-- MODAL POPUP - 4 START -->
+            <div class="md-modal md-effect-11" id="pricing-modal-3">
+                <div class="md-content bg-dark custom-md-content"
+                style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(48, 27, 208), 0 2px 7px 0 rgba(4, 2, 14, 0.5);">
+                <div class="modal___close__btn position-relative">
+                    <i class="fas fa-times position-absolute end-0 md-close"
+                        style="font-size: 20px;cursor: pointer; right:3% !important;"></i>
+                </div>
+                <div class="md-content-header p-3">
+                    <h4 class="text-uppercase text-center">Byte Battle
+                    </h3>
+                      
+                </div>
+                <div>
+                    <div class="card-details">
+                        <form class="form-control bg-transparent B-none"
+                            action="https://formspree.io/f/xvodvebq" method="POST">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mt-3">
+                                        <label class="form-label text-white" style="color: #fff;"><b>Description</b></label>
+                                      <p style="color: #fff; text-align: justify;"><b>Byte battle<br>
+                                        Round -1</b><br>
+                                        The Logical quiz will be given to each participant.The participant solve the quiz to unlock the program.
+                                        Round -2
+                                        The input and the corresponding output will be provided to the participants.You need to figure out the logic and code it. Figure and configure your magic.
+                                        
+                                        <br><b>Instructions:</b><br>
+                                        
+                                        1)Solo participan<br>
+                                        
+                                        2)Make sure you have a Hackerrank account. If not create one before the contest.<br>
+                                        
+                                        3)Participants can bring their own laptops.If not lab system will be provided.<br>
+                                        
+                                        4) Participant can use any programming language.<br><div style="color: gold;">1st prize 750/- 
+                                        </div><div style="color: lightsalmon;">2nd prize 500/-</div></p> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="md-overlay bg-white"></div>
+            <!-- MODAL POPUP - 4 END   -->
+              <!-- MODAL POPUP - 4 START -->
+              <div class="md-modal md-effect-11" id="pricing-modal-4">
+                <div class="md-content bg-dark custom-md-content"
+                style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(48, 27, 208), 0 2px 7px 0 rgba(4, 2, 14, 0.5);">
+                <div class="modal___close__btn position-relative">
+                    <i class="fas fa-times position-absolute end-0 md-close"
+                        style="font-size: 20px;cursor: pointer; right:3% !important;"></i>
+                </div>
+                <div class="md-content-header p-3">
+                    <h4 class="text-uppercase text-center">UI Crafterz
+
+                    </h3>
+                      
+                </div>
+                <div>
+                    <div class="card-details">
+                        <form class="form-control bg-transparent B-none"
+                            action="https://formspree.io/f/xvodvebq" method="POST">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mt-3">
+                                        <label class="form-label text-white" style="color: #fff;"><b>Description</b></label>
+                                      <p style="color: #fff; text-align: justify;">Good Design, when done well, should be invisible - Jared Spool In today's age of screens and keyboards, we spend more time staring at screens than anything else. A well designed UI has become a basic requirement to attract users and generate interaction. This is an opportunity to showcase your UI design skills by designing a UI for a specific problem statement.
+
+                                        <br><b>Eligibility</b><br>
+                                        Anyone can join<br>
+                                        
+                                        <b>Instructions</b><br>
+                                        1)Participation in this event is limited to solo contestants, and Figma is the sole platform allowed for use.
+                                        <br>2)The UI design has to be for a mobile device
+                                        <br>3) A minimum of 3 screens must be designed
+                                        <br>4)The UI must fit the provided brief
+                                        <br>5)Submission must include - User flow, UI screens, a brief description of each screen and justifications for design decisions made<br><div style="color: gold;">1st prize 750/- 
+                                        </div><div style="color: lightsalmon;">2nd prize 500/-</div></p> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="md-overlay bg-white"></div>
+            <!--END-->
+          
+              <!-- MODAL POPUP - 4 START -->
+              <div class="md-modal md-effect-11" id="pricing-modal-5">
+                <div class="md-content bg-dark custom-md-content"
+                style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(48, 27, 208), 0 2px 7px 0 rgba(4, 2, 14, 0.5);">
+                <div class="modal___close__btn position-relative">
+                    <i class="fas fa-times position-absolute end-0 md-close"
+                        style="font-size: 20px;cursor: pointer; right:3% !important;"></i>
+                </div>
+                <div class="md-content-header p-3">
+                    <h4 class="text-uppercase text-center">Fetch the Teaser
+
+                    </h3>
+                       
+                </div>
+                <div>
+                    <div class="card-details">
+                        <form class="form-control bg-transparent B-none"
+                            action="https://formspree.io/f/xvodvebq" method="POST">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mt-3">
+                                        <label class="form-label text-white" style="color: #fff;"><b>Description</b></label>
+                                      <p style="color: #fff; text-align: justify;">A movie is given to each and every participant
+                                         they have to make a teaser for 1 minute within in given Duration<br><div style="color: gold;">1st prize 750/- 
+                                        </div><div style="color: lightsalmon;">2nd prize 500/-</div></p> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="md-overlay bg-white"></div>
+            <!--END-->
+            <!-- MODAL POPUP - 4 START -->
+            <div class="md-modal md-effect-11" id="pricing-modal-6">
+                <div class="md-content bg-dark custom-md-content"
+                style="overflow-y: scroll;height:80vh;box-shadow:0 2px 5px 0 rgb(48, 27, 208), 0 2px 7px 0 rgba(4, 2, 14, 0.5);">
+                <div class="modal___close__btn position-relative">
+                    <i class="fas fa-times position-absolute end-0 md-close"
+                        style="font-size: 20px;cursor: pointer; right:3% !important;"></i>
+                </div>
+                <div class="md-content-header p-3">
+                    <h4 class="text-uppercase text-center">Workshop on AR/VR
+
+                    </h3>
+                       
+                </div>
+                <div>
+                    <div class="card-details">
+                        <form class="form-control bg-transparent B-none"
+                            action="https://formspree.io/f/xvodvebq" method="POST">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mt-3">
+                                        <label class="form-label text-white" style="color: #fff;"><b>Description</b></label>
+                                      <p style="color:#fff; text-align: justify;">Have all the guidelines clear when you go to write your presentation. Know how long the speech must be. 
+                                        Know how many points you're required to cover. Know if you must include sources or visuals.
+                                        Presentations should be clearly structured and should contain the essential elements of the accepted
+                                         formal paper. Please include such content as the problem, the background, the innovative approach, 
+                                         the new results, and any comparative evaluation that the author wishes to present.<br><div style="color: gold;">1st prize 750/- 
+                                        </div><div style="color: lightsalmon;">2nd prize 500/-</div></p> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="md-overlay bg-white"></div>
+            <!--END-->
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+                data-wow-duration="1s" data-wow-delay="0.7s">
+                <div class="pricing-block text-center wow animated fadeInRight">
+                    <div class="box-for-dep-img">
+                        <h1><img src="./3d/arvr.jpg" height="100%" width="100%"></h1>
+                        <div class="price-tag-desc" style="height: auto;">
+                            <h4><center>AR/VR expo
+                            </center></h4>
+                        </div>
+                    </div>
+                    <!-- <div class="price-content">
+                        <p>2x option 1</p>
+                        <p>Free option 2</p>
+                        <p>Unlimited option 3</p>
+                        <p>Unlimited option 4</p>
+                        <p>1x option 5</p>
+                    </div> -->
+                    <div class="pricing-btn">
+                        <center><button data-mdb-ripple-color="success" type="submit"
+                            class="btn btn-lg btn-price px-5 mb-4 md-trigger"
+                            data-modal="pricing-modal-1">Details</button></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+                data-wow-duration="1s" data-wow-delay="0.7s">
+                <div class="pricing-block text-center wow animated fadeInRight">
+                    <div class="box-for-dep-img">
+                        <h1><img src="./3d/paper.jpg" height="100%" width="100%"></h1>
+                        <div class="price-tag-desc" style="height: auto;">
+                            <h4><center>Paper Scriptum
+                            </center></h4>
+                        </div>
+                    </div>
+                    <!-- <div class="price-content">
+                        <p>2x option 1</p>
+                        <p>Free option 2</p>
+                        <p>Unlimited option 3</p>
+                        <p>Unlimited option 4</p>
+                        <p>1x option 5</p>
+                    </div> -->
+                    <div class="pricing-btn">
+                        <center><button data-mdb-ripple-color="success" type="submit"
+                            class="btn btn-lg btn-price px-5 mb-4 md-trigger"
+                            data-modal="pricing-modal-2">Details</button></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+                data-wow-duration="1s" data-wow-delay="0.7s">
+                <div class="pricing-block text-center wow animated fadeInRight">
+                    <div class="box-for-dep-img">
+                        <h1><img src="./3d/codefest.jpg" height="100%" width="100%"></h1>
+                        <div class="price-tag-desc" style="height: auto;">
+                            <h4><center>Byte Battle
+                            </center></h4>
+                        </div>
+                    </div>
+                    <!-- <div class="price-content">
+                        <p>2x option 1</p>
+                        <p>Free option 2</p>
+                        <p>Unlimited option 3</p>
+                        <p>Unlimited option 4</p>
+                        <p>1x option 5</p>
+                    </div> -->
+                    <div class="pricing-btn">
+                        <center><button data-mdb-ripple-color="success" type="submit"
+                            class="btn btn-lg btn-price px-5 mb-4 md-trigger"
+                            data-modal="pricing-modal-3">Details</button></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+                data-wow-duration="1s" data-wow-delay="0.7s">
+                <div class="pricing-block text-center wow animated fadeInRight">
+                    <div class="box-for-dep-img">
+                        <h1><img src="./3d/uiux.jpg" height="100%" width="100%"></h1>
+                        <div class="price-tag-desc" style="height: auto;">
+                            <h4><center>UI Crafterz
+                            </center></h4>
+                        </div>
+                    </div>
+                    <!-- <div class="price-content">
+                        <p>2x option 1</p>
+                        <p>Free option 2</p>
+                        <p>Unlimited option 3</p>
+                        <p>Unlimited option 4</p>
+                        <p>1x option 5</p>
+                    </div> -->
+                    <div class="pricing-btn">
+                        <center><button data-mdb-ripple-color="success" type="submit"
+                            class="btn btn-lg btn-price px-5 mb-4 md-trigger"
+                            data-modal="pricing-modal-4">Details</button></center>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+                data-wow-duration="1s" data-wow-delay="0.7s">
+                <div class="pricing-block text-center wow animated fadeInRight">
+                    <div class="box-for-dep-img">
+                        <h1><img src="./3d/flim.jpg" height="100%" width="100%"></h1>
+                        <div class="price-tag-desc" style="height: auto;">
+                            <h4><center>Fetch the Teaser
+                            </center></h4>
+                        </div>
+                    </div>
+                    <!-- <div class="price-content">
+                        <p>2x option 1</p>
+                        <p>Free option 2</p>
+                        <p>Unlimited option 3</p>
+                        <p>Unlimited option 4</p>
+                        <p>1x option 5</p>
+                    </div> -->
+                    <div class="pricing-btn">
+                        <center><button data-mdb-ripple-color="success" type="submit"
+                            class="btn btn-lg btn-price px-5 mb-4 md-trigger"
+                            data-modal="pricing-modal-5">Details</button></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+            data-wow-duration="1s" data-wow-delay="0.7s">
+            <div class="pricing-block text-center wow animated fadeInRight">
+                <div class="box-for-dep-img">
+                    <h1><img src="./3d/workshop.jpg" height="100%" width="100%"></h1>
+                    <div class="price-tag-desc" style="height: auto;">
+                        <h4><center>AR VR WORKSHOP
+                        </center></h4>
+                    </div>
+                </div>
+                <!-- <div class="price-content">
+                    <p>2x option 1</p>
+                    <p>Free option 2</p>
+                    <p>Unlimited option 3</p>
+                    <p>Unlimited option 4</p>
+                    <p>1x option 5</p>
+                </div> -->
+                <div class="pricing-btn">
+                    <center><button data-mdb-ripple-color="success" type="submit"
+                        class="btn btn-lg btn-price px-5 mb-4 md-trigger"
+                        data-modal="pricing-modal-6">Details</button></center>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+            data-wow-duration="1s" data-wow-delay="0.7s">
+            <div class="pricing-block text-center wow animated fadeInRight">
+                
+                <div class="sign-up-button mt-5 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="1s" style="padding-top: 40%; padding-bottom: 40%; background-color: #fff;">
+                    <center>
+                        <a class="text-decoration-none" href="https://docs.google.com/forms/d/e/1FAIpQLSf-noADiUpapsVnSLarcs-kSpzSN2L5cqLo61bBrNkKRUDeFA/viewform?urp=gmail_link" class="text-decoration-none"   style="color:#fff;" 
+                        target="_blank">
+                      <button data-mdb-ripple-color="success" type="submit" 
+                            class="btn btn-lg btn-register wow animated fadeIn" data-wow-duration="0.5s" 
+                            data-wow-delay="3.4s">
+                            
+                              Register
+                        </button></a>
+                    </center>
+                </div>
+               
+            </div>
+        </div>
+           
+
+
+
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 wow animated fadeInRight"
+        data-wow-duration="1s" data-wow-delay="0.7s">
+      
+    </div>
+
+
+
+        </div>
+     
+        
+    </div>
+  
+</section>
+
+
+<!-- SECTION - Events END     -->
+    <!-- SECTION -  Schedule START -->
+    <section class="container-fluid schedule_page d-flex align-items-center justify-content-center position-relative"
+        id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="schedule_heading mb-5 mt-4 wow animated fadeInRight" data-wow-duration="1s"
+                        data-wow-delay="0.3s">
+                        <h1 class="text-center mb-5">SCHEDULE</h1>
+                        <p class="text-muted">Refreshment and Lunch will be provided</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0 mb-5">
+               
+                <div class="col-3 col-md-3">
+                    <div class="schedule_btn wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <button data-mdb-ripple-color="success" class="btn btn-day w-100" id="btn-2">Day 1</button>
+                    </div>
+                </div>
+               
+               
+            </div>
+            <div class="row mb-5" id="schedule_block">
+                <div class="schedule_item_heading mb-5 wow animated flipInX" data-wow-duration="1s" data-wow-delay="1s">
+                    <h3 class="text-center" id="sch_date">April 22, 2024</h3>
+                </div>
+                <div class="row w-75 mx-auto g-0 custom-acc-row wow animated fadeInLeft" data-wow-duration="1s"
+                    data-wow-delay="1s">
+                    <div class="col-md-12 w-100">
+                        <div class="accordion" id="accordion_1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                        style="display: inline-block!important;">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="accordion-item-heading" style="padding:15px 0px;">
+                                                    <h4>10:00 a.m - 12:30 a.m</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="accordion-title" style="padding:15px 0px;">
+                                                   
+                                                    <span id="acc-title-2"><strong>Byte Battle</strong>
+                                                </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordion_1">
+                                    <div class="accordion-body">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="venue-title">
+                                                    <small class="text-muted"  style="font-size:x-large;">Venue:</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="venue-desc">
+                                                    <p  class="venuefont" style="font-size:x-large;">CC3 LAB
+                                                        <br> MAIN BLOCK
+                                                       </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-75 mx-auto g-0 custom-acc-row wow animated fadeInLeft" data-wow-duration="1s"
+                    data-wow-delay="1.05s">
+                    <div class="col-md-12 w-100">
+                        <div class="accordion" id="accordion_2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"
+                                        style="display: inline-block!important;">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="accordion-item-heading" style="padding:15px 0px;">
+                                                    <h4>11.30 a.m - 1.00 p.m</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="accordion-title" style="padding:15px 0px;">
+                                                    
+                                                  <strong>Paper Scriptum
+                                                </strong> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordion_2">
+                                    <div class="accordion-body">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="venue-title">
+                                                    <small class="text-muted"  style="font-size:x-large;">Venue:</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="venue-desc">
+                                                    <p class="venuefont" style="font-size:x-large;">
+                                                        LH 16 ClassRoom
+                                                        <br>
+                                                    MECHANICAL DEPARTMENT
+                                                        </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-75 mx-auto g-0 custom-acc-row wow animated fadeInLeft" data-wow-duration="1s"
+                    data-wow-delay="1.1s">
+                    <div class="col-md-12 w-100">
+                        <div class="accordion" id="accordion_3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree" style="display: inline-block!important;">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="accordion-item-heading" style="padding:15px 0px;">
+                                                    <h4>2:00p.m - 4.00 p.m</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="accordion-title" style="padding:15px 0px;">
+                                                   
+                                                <strong>AR VR EXPO</strong>
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordion_3">
+                                    <div class="accordion-body">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="venue-title">
+                                                    <small class="text-muted"  style="font-size:x-large;">Venue:</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="venue-desc">
+                                                    <p style="font-size:x-large;" class="venuefont">LH 15 class Room <br>
+                                                    MECHANICAL DEPARTMENT</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-75 mx-auto g-0 custom-acc-row wow animated fadeInLeft" data-wow-duration="1s"
+                    data-wow-delay="1.15s">
+                    <div class="col-md-12 w-100">
+                        <div class="accordion" id="accordion_4">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"
+                                        style="display: inline-block!important;">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="accordion-item-heading" style="padding:15px 0px;">
+                                                    <h4>2:00 p.m - 3:00 p.m</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="accordion-title" style="padding:15px 0px;">
+                                                  
+                                                    <strong>Fetch the teaser</strong> 
+                                                      
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordion_4">
+                                    <div class="accordion-body">
+                                        <div class="row gx-5">
+                                            <div class="col-md-3">
+                                                <div class="venue-title">
+                                                    <small class="text-muted"  style="font-size:x-large;">Venue:</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="venue-desc">
+                                                    <p  class="venuefont"style="font-size:x-large;"> CC3 LAB <br>MAIN BLOCK</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-75 mx-auto g-0 custom-acc-row wow animated fadeInLeft" data-wow-duration="1s"
+                data-wow-delay="1.15s">
+                <div class="col-md-12 w-100">
+                    <div class="accordion" id="accordion_4">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"
+                                    style="display: inline-block!important;">
+                                    <div class="row gx-5">
+                                        <div class="col-md-3">
+                                            <div class="accordion-item-heading" style="padding:15px 0px;">
+                                                <h4>3:00 p.m - 4:30 p.m</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="accordion-title" style="padding:15px 0px;">
+                                              
+                                                <strong>UI/UX DESIGN</strong> 
+                                                  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordion_4">
+                                <div class="accordion-body">
+                                    <div class="row gx-5">
+                                        <div class="col-md-3">
+                                            <div class="venue-title">
+                                                <small class="text-muted"  style="font-size:x-large;">Venue:</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="venue-desc">
+                                                <p class="venuefont" style="font-size:x-large;"> CC3 LAB <br>MAIN BLOCK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- day22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222-->
+    </section>
+    <section class="container-fluid schedule_page d-flex align-items-center justify-content-center position-relative"
+    id="schedule">
+    <div class="container">
+    
+        <div class="row gx-0 mb-5">
+           
+            <div class="col-3 col-md-3">
+                <div class="schedule_btn wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <button data-mdb-ripple-color="success" class="btn btn-day w-100" id="btn-2">Day 2</button>
+                </div>
+            </div>
+           
+           
+        </div>
+        <div class="row mb-5" id="schedule_block">
+            <div class="schedule_item_heading mb-5 wow animated flipInX" data-wow-duration="1s" data-wow-delay="1s">
+                <h3 class="text-center" id="sch_date">APRIL 23, 2024</h3>
+            </div>
+            <div class="row w-75 mx-auto g-0 custom-acc-row wow animated fadeInLeft" data-wow-duration="1s"
+                data-wow-delay="1s">
+                <div class="col-md-12 w-100">
+                    <div class="accordion" id="accordion_1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                    style="display: inline-block!important;">
+                                    <div class="row gx-5">
+                                        <div class="col-md-3">
+                                            <div class="accordion-item-heading" style="padding:15px 0px;">
+                                                <h4>9.30 a.m - 4.30 p.m</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="accordion-title" style="padding:15px 0px;">
+                                                
+                                               <strong>AR/VR WORKSHOP</strong>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordion_1">
+                                <div class="accordion-body">
+                                    <div class="row gx-5">
+                                        <div class="col-md-3">
+                                            <div class="venue-title">
+                                                <small class="text-muted" style="font-size:x-large;">Venue: </small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="venue-desc">
+                                                <p style="font-size:x-large;">AR VR LAB
+
+                                                   </p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+           
+          <img src="Images/Background/CSD_symposium_brouchers.jpg" width="90%" style="margin-left: 5%;">
+    </div>
+    <!-- day2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222-->
+</section>
+    <section class="container-fluid position-relative d-flex align-items-center justify-content-center mb-5"
+        style="min-height: 10vh">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-md-12">
+                    <div class="sign-up-buttons d-flex flex-row align-items-center justify-content-center">
+                        <div class="col-6 col-md-6 position-relative" id="block-seperator">
+                            <div class="download_schedule_block position-relative d-inline-flex flex-row align-items-center justify-content-center wow animated fadeInRight"
+                                data-wow-duration="1s" data-wow-delay="1.2s">
+                                <div class="download_schedule_item">
+                                    <a href="./csd-broucher.pdf" target="_blank" download="schedule">Download Broucher</a>
+                                    <i class="fas fa-download ms-3" style="font-size:20px;"></i>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION - 3 END -->
+
+    
+<!--SECTION-  3 Schedule  END-->
+ 
+
+   
+
+    <!-- SECTION - 6 START   -->
+    <section class="container-fluid sign-up position-relative d-flex align-items-center justify-content-center"
+        id="sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sign-up-heading mb-5 wow animated fadeInLeft" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <h1 class="mb-5">HELP DESK</h1>
+                        <p class="mb-5">Is there is any queries contact the coordinators.</p>
+                    </div>
+                    <div class="sign-up-button mt-5 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <button onclick="window.location.href='mailto:desiggnzia@gmail.com'" type="button"
+                            class="btn btn-lg px-5 btn-reg"
+                            style="padding-top: 15px; padding-bottom: 15px;">MAIL US</button>
+                    </div>
+                    <!-- MODAL FOR FORM START -->
+                    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="FormModalLabel"
+                        aria-hidden="true" style="z-index: 99999999;">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0" style="border:2px solid #1bce7c;">
+                                <div class="modal-header position-relative py-4">
+                                    <h5 class="modal-title text-center w-100 text-uppercase position-absolute"
+                                        id="FormModalLabel"
+                                        style="font-size:15px;color:#1bce7c;font-weight:700;letter-spacing: 0.2em;">
+                                        Registration</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                        style="z-index:2500;">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-control" action="https://formsubmit.co/el/vulane" method="POST">
+                                        <div class="mb-3">
+                                            <label for="recipient-name"
+                                                class="col-form-label w-100 text-start">Name:</label>
+                                            <input type="text" class="form-control" 
+                                                placeholder="Name" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email-address"
+                                                class="col-form-label w-100 text-start">E-mail:</label>
+                                            <input class="form-control" type="email" name="email-address"
+                                               placeholder="Email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="phone-number"
+                                                class="col-form-label w-100 text-start">Phone:</label>
+                                            <input class="form-control" type="number" name="phone-number"
+                                                placeholder="Phone" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text"
+                                                class="col-form-label w-100 text-start">Message:</label>
+                                            <textarea class="form-control" name="message-text" 
+                                                placeholder="Message" style="resize: none;" required></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button data-mdb-ripple-color="success" type="button"
+                                                class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button data-mdb-ripple-color="success" type="submit"
+                                                class="btn btn-outline-primary">Send Message</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MODAL FOR FORM END   -->
+                    <br>
+                    <p class="wow animated bounceInLeft text-center text-white" data-wow-duration="2s"
+                        data-wow-delay="0.5s">Please read
+                        the <a class="terms-link" data-bs-toggle="modal" data-bs-target="#termsModal" style="color: #000000; font-size: medium;">Rules and Regulations</a> carefully.</p>
+                    <!-- MODAL START -->
+                    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termModalLabel"
+                        aria-hidden="true" style="z-index: 99999999;">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0" style="border:2px solid #1bce7c;">
+                                <div class="modal-header py-4 position-relative custom-modal-header">
+                                    <h5 class="modal-title w-100 text-center position-absolute" id="termModalLabel"
+                                        style="color:#1fe68a;text-transform: uppercase; letter-spacing:0.2em;font-family: var(--primaryFont);font-weight: 700; font-size: 15px;">
+                                        Rules and Regulations</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                        style="z-index:2500;"></button>
+                                </div>
+                                <div class="modal-body text-start" style="padding: 2rem!important;">
+                                    <div class="terms-condition">
+                                        <ul type="disc">
+                                            <li class="mb-4">Student must carry identity card with them in the campus and produce it
+                                                on demand by authority.</li>
+                                            <li class="mb-4">Student individual Registration is must</li>
+                                            <li>Students must park their vehicles in the parking stand only and bicycles
+                                                with proper lock system.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button data-mdb-ripple-color="success" type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MODAL END   -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION -  END     -->
+<!--                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                       .*                                       
+                                 /&&&&&&&&&&&&#                                 
+                           #    #&&&&&&&&&&&&&&     %                           
+                     %&&&&&@    /&&&&     &&&&&     &&&&&&&                     
+               &&&&&&&&&&&&&    ,&&&&.    &&&&&     &&&&&&&&&&&&&               
+             %&&&&&&&& &&&&&    .&&&&,    &&&&&     &&&&@ %&&&&&&&              
+             #&&&&     &&&&&     &&&&*    &&&&&     &&&&@    %&&&&              
+             (&&&&     &&&&&     &&&&/    &&&&&     &&&&@    #&&&&              
+             /&&&&     &&&&&     &&&&(              &&&&@    (&&&&              
+             ,&&&&               &&&&%              &&&&&    /&&&&              
+             .&&&&.              &&&&&              &&&&&    *&&&&              
+             .&&&&*              &&&&&&&&&&&        &&&&&    .&&&&.             
+              &&&&(                  (&&&&&&&&&     &&&&&    .&&&&*             
+              &&&&%                       (&&&&     &&&&&     &&&&(             
+              &&&&&    &,                 *&&&&.    &&&&&     &&&&%             
+              &&&&@    &&&&&         &    .&&&&.    &&&&&     &&&&&             
+              &&&&@    %&&&&     &&&&&     &&&&*    &&&&&     &&&&@             
+              &&&&@    (&&&&     &&&&&     &&&&/    &&&&&     &&&&@             
+              &&&&&&&&&#&&&&     &&&&&     &&&&(    &&&&&&&&&&&&&&@             
+                *&&&&&&&&&&&     &&&&&     &&&&#    @&&&&&&&&&&/                
+                      .&&&&&.    &&&&&     &&&&%    @&&&&,                      
+                                 &&&&&&&&&&&&&&&                                
+                                   @&&&&&&&&@                                   
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+-->
+   
+    <!-- SECTION -  START   -->
+    <section class="contact container-fluid position-relative d-flex align-items-center justify-content-center"
+        id="Contact">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="contact-heading mb-5 mt-5 wow animated fadeInDown" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <h1 class="mb-5">CONTACT</h1>
+                        <p class="mb-5">Erode Sengunthar Engineering College is an autonomous, private engineering college in Thudupathi,
+                             5 km from Perundurai, 22 km from Erode, Tamil Nadu, India. It is affiliated with Anna University.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 contact-row">
+                <div class="col-md-4">
+                    <div class="contact-block wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <div class="contact-block-title">
+                            <h5>Address</h5>
+                        </div>
+                        <div class="contact-block-content">
+                            <p>Erode sengunthar enginering college, Palakarai, Thuupathy, Perundurai,Erode-638057</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-block wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="contact-block-title">
+                            <h5>Students Coordinator</h5>
+                        </div>
+                        <div class="contact-block-content">
+                            <p>Aathavan G <a href="tel:6374643461" style="color: rgb(29, 255, 255);">6374643461</a><br>Elangkumaran T<a href="tel:6381821863" style="color: rgb(29, 255, 255);">
+                                6381821863</a><br>Anvarbasha A <a href="tel:7871042489" style="color: rgb(29, 255, 255);">7871042489</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-block wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">
+                        <div class="contact-block-title">
+                            <h5>Email</h5>
+                        </div>
+                        <div class="contact-block-content">
+                            <p style="text-decoration: none; ">
+                                <a href="mailto:desiggnzia@gmail.com"  target="_blank"  style="color: rgb(29, 255, 255);">desiggnzia@gmail.com</a><br>
+                               <!-- <a href="mailto:esecprincipal@gmail.com" style="color: white;" >esecprincipal@gmail.com</a> -->
+                                <br>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div><div class="col-md-4">
+                    <div class="contact-block wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">
+                        <div class="contact-block-title">
+                            <h5>Head of the Department</h5>
+                        </div>
+                        <div class="contact-block-content">
+                            <p style="text-decoration: none; ">
+                               Dr.S.Tamilselvan<br><a href="tel:9994135374" style="color: rgb(29, 255, 255);">9994135374</a><br>
+                                <br>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="contact-block wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">
+                        <div class="contact-block-title">
+                            <h5>Faculty Coordinator</h5>
+                        </div>
+                        <div class="contact-block-content">
+                            <p style="text-decoration: none; ">
+                               Mrs.J.S.Sharanyanivasini <a href="tel:8754132200" style="color: rgb(29, 255, 255);">8754132200</a><br>
+                            </p>
+                            <p style="text-decoration: none; ">
+                                Mr.K.Padmanaban <a href="tel:9487745804" style="color: rgb(29, 255, 255);">9487745804</a><br>
+                                 <br>
+                             </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="social-media w-100 text-center mb-5">
+                        <!-- Facebook -->
+                        <a class="btn btn-primary btn-floating me-2" data-mdb-ripple-color="dark"
+                            style="background-color: #3b5998;" href="https://www.facebook.com/esecindia" target="_blank" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-primary btn-floating me-2" data-mdb-ripple-color="dark"
+                            style="background-color: #55acee;" href="https://twitter.com/esec_india/" target="_blank" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-primary btn-floating me-2" data-mdb-ripple-color="dark"
+                            style="background-color: #dd4b39;" href="https://erode-sengunthar.ac.in/" target="_blank" role="button"><i class="fab fa-google"></i></a>
+                        <!-- Instagram -->
+                        <a class="btn btn-primary btn-floating me-2" data-mdb-ripple-color="dark"
+                            style="background-color: #ac2bac;" href="https://www.instagram.com/csd_esec/" target="_blank" role="button"><i
+                                class="fab fa-instagram"></i></a>
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-primary btn-floating me-2" data-mdb-ripple-color="dark"
+                            style="background-color: #0082ca;" href="https://www.linkedin.com/school/esecindia" target="_blank" role="button"><i
+                                class="fab fa-linkedin-in"></i></a>
+
+                        <!-- Youtube -->
+                        <a class="btn btn-primary btn-floating me-2" data-mdb-ripple-color="dark"
+                            style="background-color: #c61118;" href="https://www.youtube.com/@esecindia" target="_blank" role="button"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="get-direction mb-5 wow animated fadeInLeft" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-mdb-ripple-color="success"
+                            type="submit" class="btn btn-lg btn-dir py-3 px-4">Get
+                            directions</button>
+                    </div>
+                    <!-- MODAL MAP START -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"
+                        style="z-index: 99999999;">
+                        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content bg-dark rounded-0" style="border:2px solid #1bce7c;">
+                                <div class="modal-header py-4">
+                                    <h5 class="modal-title text-center w-100 text-uppercase" id="staticBackdropLabel"
+                                        style="font-size:15px;color:#1bce7c;font-weight:700;letter-spacing: 0.2em;">
+                                        Location</h5>
+                                    <button type="button" class="btn-close modal_close" data-bs-dismiss="modal"
+                                        aria-label="Close" style="z-index:2500;">
+                                        <i class="fas fa-times" style="font-size: 20px;"></i>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="map">
+                                        <iframe className={classes.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831.4529905262334!2d77.54790766414372!3d11.313021171509675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9132f4f89e445%3A0x81f682bd38f8a702!2sErode%20Sengunthar%20Engineering%20College!5e0!3m2!1sen!2sin!4v1710667674178!5m2!1sen!2sin" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    height="100%"
+                                    width="100%"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MODAL MAP END   -->
+                </div>
+            </div>
+        </div>
+    </section>
+        <p style="text-align: center; background-color: #000000; color: white;">Designed by CSD Team</p>
+    
+    <!-- SECTION - 9 END  -->
+
+    <!-- SECTION - 10 START   -->
+   
+    <!-- SECTION - 10 END     -->
+
+    <!-- SCRIPT START -->
+    <!-- jQUERY -->
+    <script src="./Assets/jQuery/jquery-3.6.0.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+
+    <!-- Modal Effect -->
+    <script src="./Assets/ModalWindowEffects-master/js/modalEffects.js"></script>
+    <script src="./Assets/ModalWindowEffects-master/js/classie.js"></script>
+    <!-- <script src="./Assets/ModalWindowEffects-master/js/css-filters-polyfill.js"></script> -->
+    <script src="./Assets/ModalWindowEffects-master/js/cssParser.js"></script>
+    <script src="./Assets/ModalWindowEffects-master/js/modernizr.custom.js"></script>
+
+    <!-- fakeloader js -->
+    <script src="./Assets/fakeLoader.js-2.0.0/dist/fakeLoader.min.js"></script>
+
+    <!-- COUNTER JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- SMOOTH SCROLLING EFFECT -->
+    <script src="./Assets/smooth-scrollbar-develop/dist/smooth-scrollbar.js"></script>
+
+    <!-- jQuery Nice Scrolling Effect -->
+    <script src="./Assets/jquery.nicescroll-master/jquery.nicescroll.js"></script>
+
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/e067279608.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="./Assets/Swiper Slider/swiper-bundle.js"></script>
+    <script src="./Assets/Swiper Slider/swiper-bundle.min.js"></script>
+
+    <!-- OWL JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script type="text/javascript" src="./main.js"></script>
+
+    <!-- WOW JS -->
+    <script src="./Assets/WOW-master/dist/wow.min.js"></script>
+
+    <!-- GOOGLE MAP API -->
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo1vbXZBCVpp1uh5GKwUEblzy5GcYw8Es&callback=initMap"
+        async defer></script>
+
+    <!-- FORMSPREE API -->
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+    
+    <!-- SCRIPT END   -->
+</body>
+
+</html>
